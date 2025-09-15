@@ -23,8 +23,9 @@ s=0,           1
         for(let j=1; j<=i; j++)
         {
          row = row + "X ";
+         
         }
-        console.log(row);
+            console.log(row);
     }
 
  }
