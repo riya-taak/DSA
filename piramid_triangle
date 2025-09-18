@@ -1,0 +1,65 @@
+/*
+         X
+       X X X
+     X X X X X
+   X X X X X X X
+ X X X X X X X X X
+s<=n-i
+1<5-1
+5-1=4
+5-2=3
+3=2
+4=1
+
+i= 1,
+j= 1,
+
+
+*/
+
+function piramid_triangle(n) {
+
+
+    let row;
+    for (let i = 1; i <= n; i++) {
+        row = " ";
+        for (let j = 1; j <= n; j++) {
+            if (j <= n - i) {
+                row = row + "  ";
+            }
+            else {
+                row = row + "X ";
+            }
+        }
+
+        for(let j=1; j<i; j++)
+        {
+         row = row + "X ";
+         
+        }
+        console.log(row);
+    }
+
+
+}
+/* function piramid_triangle(n) {
+   let row;
+  for( let i=1; i<=n; i++)
+  {  
+      row = " ";
+   for(let s=1 ;s<=n-i; s++)
+   {
+       row = row + "  ";
+   }
+   for( let j=1; j<i+i; j++)
+   {
+       row = row + i+" ";
+   }
+   console.log(row);
+  }
+}  */
+
+let size = 9;
+piramid_triangle(size);
+
+
