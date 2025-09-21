@@ -57,6 +57,7 @@ function printLeftUpTriangle(n) {
         {
             console.log("=============");
         }
+        
 
     }
 
