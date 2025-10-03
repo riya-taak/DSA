@@ -40,5 +40,6 @@ function printRightUpTriangle(n) {
 
 
 
+
 let size = 5;
 printRightUpTriangle(size);
