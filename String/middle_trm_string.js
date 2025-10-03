@@ -1,20 +1,9 @@
 function string(n)
  {
-    for(let i=0; i<n.length;i++)
-    {
-        if(n[i]==n[2])
-        {
-            console.log(n[i]);
-        }
-        else{
-            console.log(" ");
-        }
-        
-        // console.log(a[i]);
+         return n[Math.floor(n.length/2)];
     
-    }
  }
  
- let str ="Apple";
+ let str ="dayawanti";
  console.log(string(str));
  
