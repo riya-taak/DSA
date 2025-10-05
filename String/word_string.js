@@ -16,7 +16,6 @@ function Word_String(n) {
   }
   return arr;
 
-
 }
 let size = "Kantadevi";
 console.log(Word_String(size));
