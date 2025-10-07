@@ -1,14 +1,14 @@
 function maxEle(arr)
 {
-    let max=-Infinity;
+    let min=Infinity;
     for(let i=0; i<arr.length;i++)
     {  
-        if(arr[i]>max)
+        if(arr[i]<min)
         {
-            max=arr[i];
+            min=arr[i];
         }
     }
-    return max;
+    return min;
 
 }
 let arr=[3,6,8,2,7,4];
