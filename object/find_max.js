@@ -20,7 +20,7 @@ function findMax(obj) {
 let obj = {
     a: 34,
     b: 89,
-    c: 21,
+    c: 100,
     d: 56,
     e: 48
 }
