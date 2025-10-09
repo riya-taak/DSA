@@ -1,3 +1,10 @@
+/*
+ minimum element ......
+
+*/
+
+
+
 function maxEle(arr)
 {
     let min=Infinity;
