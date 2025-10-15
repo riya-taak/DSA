@@ -9,6 +9,9 @@ j=1
 row="  * * * * * *"
 
  * * * * * 
+
+
+alphabet program
 */
 
 function Alphabat(n)
