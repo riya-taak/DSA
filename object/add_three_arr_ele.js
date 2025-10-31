@@ -1,3 +1,10 @@
+/*
+add three array element
+
+
+*/
+
+
 function add_ele(n)
 {
             let a =n[0];
